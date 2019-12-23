@@ -7,7 +7,7 @@ helloButton.addEventListener('click', () => {
       ?  '¡No escribiste nada!'
       : onMessage()
   );
-
+  
   function onMessage(){
     document.body.innerHTML +=
     ` 
@@ -15,8 +15,4 @@ helloButton.addEventListener('click', () => {
       <img src="https://i.giphy.com/media/ibGFpMv1Uoais/giphy.webp" alt="">
     `
     return messageInput.value;
-  }
-  
-helloButton.addEventListener('click', () => {
-  alert('Hola');
-});
+  }});
